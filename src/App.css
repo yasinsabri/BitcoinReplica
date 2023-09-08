@@ -58,67 +58,86 @@
   color: black;
   font-size: 15px;
 }
-.hero-heading{
-    font-size:287.5%;
-    margin: 0 auto 30px;
-    line-height: 1.7em;
-    max-width: 770px;
-    font-family: "Titillium Web", Arial, sans-serif;
-    text-align: center;
-    color: #1C1F30 !important;
-   
+.hero-heading {
+  font-size: 287.5%;
+  margin: 0 auto 30px;
+  line-height: 1.7em;
+  max-width: 770px;
+  font-family: "Titillium Web", Arial, sans-serif;
+  text-align: center;
+  color: #1c1f30 !important;
 }
-.hero-btn1{
-    color: whitesmoke;
-    background-color:#FF9500;
-    border: 1px solid #FF9500;
-    /* padding: 15px 40px; */
-    font-weight: 500;
-    width: 250px;
-    height: 50px;
+.hero-btn1 {
+  color: whitesmoke;
+  background-color: #ff9500;
+  border: 1px solid #ff9500;
+  /* padding: 15px 40px; */
+  font-weight: 500;
+  width: 250px;
+  height: 50px;
 }
-.hero-btn2{
-    color: #FF9500;
-    /* padding: 15px 80px; */
-    border: 1px solid #FF9500;
-    background-color: transparent;
-    font-weight: 500;
-    width: 250px;
-    height: 50px;
+.hero-btn2 {
+  color: #ff9500;
+  /* padding: 15px 80px; */
+  border: 1px solid #ff9500;
+  background-color: transparent;
+  font-weight: 500;
+  width: 250px;
+  height: 50px;
 }
 
-.hero-text{
+.hero-text {
   font-size: 15px;
-  color: #1C1F30;
-  font-family: "Titillium Web", Arial, sans-serif ;
+  color: #1c1f30;
+  font-family: "Titillium Web", Arial, sans-serif;
 }
 
-
-
-.overview-bg{
+.overview-bg {
   background: url(../src/Media/overview-bg.svg) !important;
-  
 }
-.O-card{
+.O-card {
   margin-top: 250px;
-  
-}
-.O-card-des{
   width: 270px;
+  background: #090c14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 200px;
-  background-color: #090C14;
 }
-.O-heading{
+
+.O-heading {
   color: whitesmoke !important;
   font-family: "Titillium Web", Arial, sans-serif;
 }
-.o-desc{
+.o-desc {
   color: whitesmoke;
   font-family: "Titillium Web", Arial, sans-serif;
 }
-@media only screen and (max-width:600px){
-  .hero-heading{
-      font-size:187.5%;
+@media only screen and (max-width: 600px) {
+  .hero-heading {
+    font-size: 187.5%;
   }
-  
+  .O-card {
+    margin-top: auto;
+    width: 300px;
+    height: 200px;
+  }
+  .overview-bg {
+    background: url(../src/Media/overview-bg.svg), #13161f !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+  .O-card-des {
+    display: flex;
+    
+    justify-content: space-around  !important;
+  }
+  .O-card-des img {
+    width: 100% !important;
+    margin-top: 25px;
+    
+  }
+  .card-details{
+    margin-left: 40px;
+  }
 }
