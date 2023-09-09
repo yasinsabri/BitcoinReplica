@@ -6,7 +6,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffad53ff !important;
+  background: #090c14 !important;
 }
 
 .navbar-toggler {
@@ -96,7 +96,6 @@
   background: url(../src/Media/overview-bg.svg) !important;
 }
 .O-card {
-  margin-top: 250px;
   width: 270px;
   background: #090c14;
   display: flex;
@@ -112,6 +111,35 @@
 .o-desc {
   color: whitesmoke;
   font-family: "Titillium Web", Arial, sans-serif;
+}
+.overview-heading {
+  color: whitesmoke;
+  margin-top: 150px;
+  font-family: "Titillium Web", Arial, sans-serif;
+}
+.started-heading {
+  color: #ff9500;
+  font-family: "Titillium Web", Arial, sans-serif;
+}
+.started-details p {
+  max-width: 90%;
+  font-size: 130.5%;
+  text-align: left;
+  color: #4d5060;
+  line-height: 1.7em;
+  font-family: "Titillium Web", Arial, sans-serif;
+}
+.blue-details {
+  color: #3490e6ff;
+}
+.overview-button {
+  color: whitesmoke;
+  font-family: "Titillium Web", Arial, sans-serif;
+  border: none;
+  background-color: #090c14FF;
+  font-weight: 500;
+  width: 300px;
+  height: 50px;
 }
 @media only screen and (max-width: 600px) {
   .hero-heading {
@@ -129,15 +157,19 @@
   }
   .O-card-des {
     display: flex;
-    
-    justify-content: space-around  !important;
+
+    justify-content: space-around !important;
   }
   .O-card-des img {
     width: 100% !important;
     margin-top: 25px;
-    
   }
-  .card-details{
+  .card-details {
     margin-left: 40px;
+  }
+  .overview-heading {
+    color: whitesmoke;
+    margin-top: -80px;
+    font-family: "Titillium Web", Arial, sans-serif;
   }
 }

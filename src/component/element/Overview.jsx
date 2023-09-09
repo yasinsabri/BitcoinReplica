@@ -8,7 +8,8 @@ const Overview = () => {
         <div className="container pt-5">
           <div className="row pt-5">
             <div className="col-sm-12 text-center pt-5  ">
-              <div className="d-flex flex-wrap  gap-5  justify-content-center ">
+              <h4 className="overview-heading pt-5">Get a quick overview for </h4>
+              <div className="d-flex flex-wrap  gap-5 pt-5 justify-content-center ">
                 <OverviewCard
                   ImgUrl="asset/ico_individuals.svg"
                   Heading="Individuals"

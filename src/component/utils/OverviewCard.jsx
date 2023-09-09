@@ -3,8 +3,8 @@ import React from "react";
 const OverviewCard = ({ ImgUrl, Heading, Desc }) => {
   return (
     <React.Fragment>
-      <div className="O-card card  ">
-        <div className="O-card-des   ">
+      <div className="O-card card   ">
+        <div className="O-card-des  ">
           <div>
             <img src={ImgUrl} alt="" className=" w-50 " />
           </div>
