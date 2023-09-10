@@ -13,15 +13,15 @@ function Example() {
       <img src="asset/play-btn.svg" onClick={handleShow} width="5%" />
 
       <Modal show={show} onHide={handleClose} animation={false}>
-        <Modal.Header closeButton></Modal.Header>
-        <Modal.Body>
-         
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/BISJi_mMi7U?si=1_SIOpNdtlOpaIwa"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </Modal>
     </>
   );
