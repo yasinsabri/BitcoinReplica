@@ -136,30 +136,47 @@
   color: whitesmoke;
   font-family: "Titillium Web", Arial, sans-serif;
   border: none;
-  background-color: #090c14FF;
+  background-color: #090c14ff;
   font-weight: 500;
   width: 300px;
   height: 50px;
 }
-.footer-bg{
-  background-color: #090c14 ;
-  
-  
+.footer-bg {
+  background-color: #1c1f30ff;
 }
 
-.bitcoin-footer{
+.bitcoin-footer {
   margin-top: -220px;
 }
-.footer-support{
+.footer-support {
   color: whitesmoke;
   font-family: "Titillium Web", Arial, sans-serif;
 }
-.footer-btn{
+.footer-btn {
   color: whitesmoke;
   background-color: #ff9500;
   border: none;
   width: 90px;
 }
+.footer-c1 p {
+  color: #9d9d9dff;
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.footer-c1 h6 {
+  color: whitesmoke;
+}
+.end-bg {
+  background-color: #090c14ff;
+}
+.end-pt1 {
+  color: whitesmoke;
+}
+.end-pt2 {
+  color: whitesmoke;
+}
+
 @media only screen and (max-width: 600px) {
   .hero-heading {
     font-size: 187.5%;
@@ -191,7 +208,10 @@
     margin-top: -80px;
     font-family: "Titillium Web", Arial, sans-serif;
   }
-  .bitcoin-footer{
+  .bitcoin-footer {
     margin-top: auto;
+  }
+  .network {
+    justify-content: center !important;
   }
 }
