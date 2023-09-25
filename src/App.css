@@ -214,4 +214,10 @@
   .network {
     justify-content: center !important;
   }
+  .end-pt1{
+    text-align: center;
+  }
+  .started-img{
+    width: 90% !important;
+  }
 }

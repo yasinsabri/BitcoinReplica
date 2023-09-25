@@ -43,7 +43,7 @@ const GetStarted = () => {
             </div>
           </div>
           <div className="col-sm-6 text-center ">
-            <img src="asset/bitcoin-img.svg" alt="" />
+            <img src="asset/bitcoin-img.svg" alt=""  className="started-img"/>
           </div>
           <div className="text-center pt-5 pb-5">
             <button className="overview-button">Get Started With Bitcoin </button>

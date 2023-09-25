@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import React from "react";
 import Navbar from "./component/layout/Navbar";
 import Footer from "./component/layout/Footer";
+import Individuals from "./pages/Individuals";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route index path="/" element={<Home />} />
+          <Route index path="/Individuals" element={<Individuals />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </React.Fragment>
   );
