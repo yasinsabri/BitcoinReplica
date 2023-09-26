@@ -1,20 +1,28 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-expand-lg ">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <img src="asset/logo.svg" alt="" width="180"/>
+            <img src="asset/logo.svg" alt="" width="180" />
           </a>
-
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon" />
+          </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            
-            
             <ul className="navbar-nav m-auto mb-2 mb-lg-0 gap-3 ">
-                {/* First Drop down */}
-            <li className="nav-item dropdown">
+              {/* First Drop down */}
+              <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -27,10 +35,9 @@ const Navbar = () => {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item">
-                      Individuals
                       <Link className="nav-link active mx-2" to="/Individuals">
-                      Individuals
-                  </Link>
+                        Individuals
+                      </Link>
                     </a>
                   </li>
                   <li>
@@ -38,23 +45,23 @@ const Navbar = () => {
                       Businesses
                     </a>
                   </li>
-                  
+
                   <li>
                     <a className="dropdown-item" href="#">
                       Developers
                     </a>
                   </li>
-                   <li>
+                  <li>
                     <a className="dropdown-item" href="#">
                       Getting Started
                     </a>
                   </li>
-                   <li>
+                  <li>
                     <a className="dropdown-item" href="#">
                       How It Works
                     </a>
                   </li>
-                   <li>
+                  <li>
                     <a className="dropdown-item" href="#">
                       White Paper
                     </a>
@@ -70,7 +77,7 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                 Resources
+                  Resources
                 </a>
                 <ul className="dropdown-menu">
                   <li>
@@ -80,33 +87,33 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Exchanges 
+                      Exchanges
                     </a>
                   </li>
-                  
+
                   <li>
                     <a className="dropdown-item" href="#">
-                    Community 
-                    </a>
-                  </li>
-                   <li>
-                    <a className="dropdown-item" href="#">
-                    Documentation
-                    </a>
-                  </li>
-                   <li>
-                    <a className="dropdown-item" href="#">
-                    Vocabulary 
-                    </a>
-                  </li>
-                   <li>
-                    <a className="dropdown-item" href="#">
-                    Events
+                      Community
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    Bitcoin Core
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Vocabulary
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Events
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Bitcoin Core
                     </a>
                   </li>
                 </ul>
@@ -116,7 +123,7 @@ const Navbar = () => {
                   Innovations
                 </a>
               </li>
-             
+
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -125,28 +132,28 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                 Participate
+                  Participate
                 </a>
                 <ul className="dropdown-menu">
-                <li>
+                  <li>
                     <a className="dropdown-item" href="#">
-                     Support Bitcoin
+                      Support Bitcoin
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Buy Bitcoin 
+                      Buy Bitcoin
                     </a>
                   </li>
-                
+
                   <li>
                     <a className="dropdown-item" href="#">
-                     Running a Full Node
+                      Running a Full Node
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                     Development
+                      Development
                     </a>
                   </li>
                 </ul>
@@ -156,11 +163,10 @@ const Navbar = () => {
                   FAQ
                 </a>
               </li>
-             
             </ul>
 
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-            <li className="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -173,23 +179,23 @@ const Navbar = () => {
                 <ul className="dropdown-menu">
                   <li>
                     <a className="dropdown-item" href="#">
-                     Spanish
+                      Spanish
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                     French
+                      French
                     </a>
                   </li>
-                
+
                   <li>
                     <a className="dropdown-item" href="#">
-                     German
+                      German
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                     Urdu
+                      Urdu
                     </a>
                   </li>
                 </ul>

@@ -25,7 +25,7 @@
   height: 17px !important;
   background-image: none !important;
   position: relative !important;
-  border-bottom: 3px solid #fff !important;
+  border-bottom: 3px solid #000 !important;
   transition: all 300ms linear;
 }
 .navbar-toggler-icon:after,
@@ -33,7 +33,7 @@
   width: 24px !important;
   position: absolute !important;
   height: 2px !important;
-  background-color: #fff !important;
+  background-color: #000 !important;
   top: 0 !important;
   left: 0 !important;
   content: "";
@@ -44,13 +44,13 @@
   top: 8px !important;
 }
 
-.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+ .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg) !important;
 }
-.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+ .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg) !important;
 }
-.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+ .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent !important;
 }
 
@@ -176,6 +176,20 @@
 .end-pt2 {
   color: whitesmoke;
 }
+.Ind-bg {
+  background: url(../src/Media/hero-bg.svg) !important;
+}
+.ind-heading h1 {
+  color: whitesmoke;
+  font-family: "Titillium Web", Arial, sans-serif;
+  letter-spacing: 0.1rem;
+}
+.ind-heading h5 {
+  color: whitesmoke;
+  font-family: "Titillium Web", Arial, sans-serif;
+  
+}
+
 
 @media only screen and (max-width: 600px) {
   .hero-heading {
@@ -214,10 +228,10 @@
   .network {
     justify-content: center !important;
   }
-  .end-pt1{
+  .end-pt1 {
     text-align: center;
   }
-  .started-img{
+  .started-img {
     width: 90% !important;
   }
 }
