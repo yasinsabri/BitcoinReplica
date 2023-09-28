@@ -44,13 +44,13 @@
   top: 8px !important;
 }
 
- .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg) !important;
 }
- .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   transform: translateY(8px) rotate(-45deg) !important;
 }
- .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent !important;
 }
 
@@ -142,7 +142,7 @@
   height: 50px;
 }
 .footer-bg {
-  background-color: #1c1f30ff;
+  background-color: rgb(21, 23, 34);
 }
 
 .bitcoin-footer {
@@ -185,12 +185,30 @@
   letter-spacing: 0.1rem;
 }
 .ind-heading h5 {
-  color: whitesmoke;
+  color: #646464ff;
   font-family: "Titillium Web", Arial, sans-serif;
-  
+}
+.card-detailss p {
+  text-align: justify;
+  color: #646464ff;
+  font-family: "Titillium Web", Arial, sans-serif;
+  margin: 10%;
+  margin-top: 13% !important;
+}
+.card-detailss h5 {
+ 
+  font-family: "Titillium Web", Arial, sans-serif;
+  margin: 10%;
+  font-size: 120.5%;
+  color: #13161f;
+  font-weight: 600;
+  margin-top: 10% !important;
 }
 
-
+.ind-card{
+  min-height: 600px ;
+  border: 1px solid rgb(173, 173, 173) !important ;
+}
 @media only screen and (max-width: 600px) {
   .hero-heading {
     font-size: 187.5%;
