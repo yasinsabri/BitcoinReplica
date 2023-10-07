@@ -8,6 +8,7 @@ import Navbar from "./component/layout/Navbar";
 import Footer from "./component/layout/Footer";
 import Individuals from "./pages/Individuals";
 import Businesses from "./pages/Businesses";
+import Resources from "./pages/Resources";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route index path="/" element={<Home />} />
           <Route index path="/Individuals" element={<Individuals/>} />
           <Route index path="/Businesses" element={<Businesses/>}/>
+          <Route index path="/Resources" element={<Resources/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

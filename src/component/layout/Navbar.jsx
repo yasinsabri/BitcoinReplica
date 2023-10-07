@@ -41,7 +41,7 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item">
                     <Link className="nav-link active mx-2" to="/Businesses">
                         Businesses
                       </Link>
@@ -83,8 +83,10 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Resources
+                    <a className="dropdown-item" >
+                    <Link className="nav-link active mx-2" to="/Resources">
+                        Resources
+                      </Link>
                     </a>
                   </li>
                   <li>
