@@ -7,6 +7,7 @@ import React from "react";
 import Navbar from "./component/layout/Navbar";
 import Footer from "./component/layout/Footer";
 import Individuals from "./pages/Individuals";
+import Businesses from "./pages/Businesses";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route index path="/" element={<Home />} />
           <Route index path="/Individuals" element={<Individuals/>} />
+          <Route index path="/Businesses" element={<Businesses/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
