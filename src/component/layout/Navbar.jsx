@@ -49,8 +49,10 @@ const Navbar = () => {
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Developers
+                    <a className="dropdown-item">
+                    <Link className="nav-link active mx-2" to="/Developers">
+                        Developers
+                      </Link>
                     </a>
                   </li>
                   <li>

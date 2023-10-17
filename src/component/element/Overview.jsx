@@ -14,6 +14,7 @@ const Overview = () => {
                   ImgUrl="asset/ico_individuals.svg"
                   Heading="Individuals"
                   Desc="Learn More"
+                  
                 />
                 <OverviewCard
                   ImgUrl="asset/ico_business.svg"

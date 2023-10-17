@@ -196,7 +196,6 @@
   margin-top: 13% !important;
 }
 .card-detailss h5 {
- 
   font-family: "Titillium Web", Arial, sans-serif;
   margin: 10%;
   font-size: 120.5%;
@@ -205,9 +204,25 @@
   margin-top: 10% !important;
 }
 
-.ind-card{
-  min-height: 600px ;
+.ind-card {
+  min-height: 600px;
   border: 1px solid rgb(173, 173, 173) !important ;
+}
+.dev-bg {
+  background-color: #13161f;
+}
+.dev-welcome p {
+  font-size: 26px;
+  line-height: 65px;
+  color: #ff7e00;
+  font-family: "Titillium Web";
+}
+.dev-hero-heading h2 {
+  max-width: 754px;
+  font-size: 50px;
+  line-height: 65px;
+  color: #ffffff;
+  font-family: "Titillium Web";
 }
 @media only screen and (max-width: 600px) {
   .hero-heading {

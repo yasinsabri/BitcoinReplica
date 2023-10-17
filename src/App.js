@@ -9,6 +9,7 @@ import Footer from "./component/layout/Footer";
 import Individuals from "./pages/Individuals";
 import Businesses from "./pages/Businesses";
 import Resources from "./pages/Resources";
+import Developers from "./pages/Developers";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route index path="/Individuals" element={<Individuals/>} />
-          <Route index path="/Businesses" element={<Businesses/>}/>
-          <Route index path="/Resources" element={<Resources/>}/>
+          <Route index path="/Individuals" element={<Individuals />} />
+          <Route index path="/Businesses" element={<Businesses />} />
+          <Route index path="/Resources" element={<Resources />} />
+          <Route index path="/Developers" element={<Developers />} />
         </Routes>
         <Footer />
       </BrowserRouter>
